@@ -1,0 +1,31 @@
+.container{
+    border: 2px solid red;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 9px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW3mysvF7_jUbBZSDcuxNRRqOxE6rwOyaGzA&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container span{
+    border: 2px solid;
+    width: 160px;
+    display: flex;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    padding: 0px 6px;
+}
+
+.container span:hover{
+    background-color: red;
+}

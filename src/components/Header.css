@@ -1,0 +1,33 @@
+.div{
+    border: 5px solid black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 14px;
+    color: white;
+
+}
+
+.div h2{
+    font-size: 28px;
+}
+
+.div button{
+    padding: 15px 50px;
+    border-radius: 10px;
+    background-color: blue;
+    font-size: 19px;
+    border: none;
+    color: white;
+}
+
+.div button:hover{
+    background-color: green;
+}
+
+.div button:active{
+    background-color: violet;
+}
